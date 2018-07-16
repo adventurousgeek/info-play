@@ -1,0 +1,55 @@
+.site-header{
+
+  padding: 50px 0px;
+  position: absolute;
+  left:0px;
+  right:0px;
+  width:100%;
+  z-index:10;
+
+  @media (max-width:$screen-xs-max){
+    padding: 30px 0px;
+  }
+
+  .off-canvas-menu{
+    margin-top: 16px;
+    display: block;
+    button{
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      margin: 0;
+      .icon-bar{
+        background-color: #fff;
+        height: 2px;
+        display: block;
+        width: 32px;
+        margin-bottom: 11px;
+        &:last-child{
+          margin: 0px;
+        }
+      }
+
+    }
+  }
+
+  .site-logo{
+    img{
+      margin:0 auto;
+      max-width:275px;
+      width:100%;
+    }
+  }
+
+  .btn-join-now{
+    border: 2px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    margin-top:16px;
+    float: right;
+
+  }
+}

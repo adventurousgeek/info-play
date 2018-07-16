@@ -1,0 +1,10 @@
+.landing-section .content-container .content-block {
+visibility: hidden;
+}
+#beam {
+visibility: hidden;
+}
+
+.site-header {
+visibility: hidden;
+}
