@@ -1,6 +1,12 @@
 <!-- Landing Section-->
 <section class="landing-section">
     <canvas id="markets"></canvas>
+    <div class="markets-video">
+        <video controls autoplay>
+            <source src="planetygon.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
     <canvas id="beam"></canvas>
     <div class="container">
         <div class="row">
