@@ -2,7 +2,7 @@
 <section class="landing-section">
     <canvas id="markets"></canvas>
     <div class="markets-video">
-        <video controls autoplay>
+        <video autoplay loop muted controls>
             <source src="planetygon.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
